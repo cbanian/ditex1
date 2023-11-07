@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+@media screen and (max-width: 768px) {
+     .maths h1{
+        margin: 3em ;
+        margin-bottom: 25px;
+     } 
+    .services-2 {
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .service {
+        flex: 0 1 calc(100% - 20px);
+    }
+}
+/* Media Query for Large Desktops (1200px and above) */
+@media screen and (min-width: 1200px) {
+    .services-2 {
+        justify-content: space-between;
+    }
+
+}
+/* Media Query for Desktops (992px to 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .services-2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .service {
+        flex: 0 1 calc(25% - 20px); /* Adjust the width as needed */
+    }
+}
+
+/* Media Query for Tablets (768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .services-2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    .maths h1{
+        margin: 3em ;
+        margin-bottom: 25px;
+     } 
+    .service {
+        flex: 0 1 calc(33.33% - 20px); /* Adjust the width as needed */
+    }
+
+    .serv{
+        margin:10px;
+        flex: 1 1 calc(34% - 20px); 
+        color:#043927;
+    }
+    
+}
+
+/* Media Query for Small Tablets and Mobile Landscape (576px to 767px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .services-2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .service {
+        flex: 0 1 calc(50% - 20px); /* Adjust the width as needed */
+    }
+    .serv{
+        flex: 1 1 calc(32% - 10px);
+    }
+    .capabilities{
+        border: 5px solid #043927;
+        
+    }
+    .about{
+        align-items: flex-start;
+    }
+    .heading h1{
+        font-size:30px;
+    }
+    .maths h1{
+        margin: 3em ;
+        margin-bottom: 25px;
+     } 
+}
+
+/* Media Query for Mobile Phones (575px and below) */
+@media screen and (max-width: 575px) {
+    .services-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        flex: 0 1 calc(100% - 20px); /* Adjust the width as needed */
+    }
+}
+
+
+/*-------------------footer responsive----------------------------------------*/
+@media screen and (max-width:980px){
+    .footer{
+        padding: 50px;
+        
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .copyrighttext{
+        padding: 8px 40px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:768px){
+      .container{
+        grid-template-columns:1fr;
+      }
+      #ch2{
+        position:relative;
+        left:33%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .cont h2{
+        margin-top:8px;
+        font-size: -2px;
+    }
+    .cont p{
+        font-size: -2px;
+    }
+    section .about{
+        flex-direction: column;
+    }
+    .capabilities{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 3% 5%;
+        border: none;
+    }
+    #ch2{
+        position:relative;
+        left:25%;
+        font-size: 21px;
+    }
+    .heading h1{
+        font-size:25px;
+    }
+    .clie{
+        margin-bottom:50px;
+    }
+    .cls {
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+      }
+      .client-img img{
+        width:60%;
+      }
+      
+      .client-img {
+        flex-basis: calc(100% / 3);
+        padding-bottom:15px;
+      }
+
+
+}
+
+
+  
